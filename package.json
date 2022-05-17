@@ -1,0 +1,7 @@
+{
+  "name": "echo-doc",
+  "scripts": {
+    "serve": "docsify serve docs",
+    "build": "docsify build docs"
+  }
+}
