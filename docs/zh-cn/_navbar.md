@@ -4,4 +4,4 @@
   * [Docker](zh-cn/docker/)
   * [杂七杂八](zh-cn/other/)
   * [Git](zh-cn/git)
-  * [Deploy](zh-cn/Deploy)
+  * [Deploy](zh-cn/deploy)
