@@ -17,4 +17,4 @@
 
 [git](zh-cn/git/_sidebar.md ":include")
 
-[deploy](deploy/_sidebar.md ":include")
+[deploy](zh-cn/deploy/_sidebar.md ":include")
