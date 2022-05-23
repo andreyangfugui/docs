@@ -14,3 +14,5 @@
 [other](zh-cn/other/_sidebar.md ":include")
 
 [git](zh-cn/git/_sidebar.md ":include")
+
+[deploy](deploy/_sidebar.md ":include")

@@ -31,3 +31,7 @@
   * [Ceph](zh-cn/other/ceph.md)
   
   * [Ansible](zh-cn/other/ansible.md)
+* Git
+  * [Gitignore](zh-cn/git/gitignore.md)
+* Deploy
+  * [Coturn](zh-cn/deploy/coturn.md)
