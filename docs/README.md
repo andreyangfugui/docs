@@ -3,14 +3,14 @@
   - `Python`
   - `运维相关`
   - `Openstack`
-  - `CI/CD`
+  - `大数据`
 
-[README](zh-cn/ubuntu/_sidebar.md ":include")
+[ubuntu](zh-cn/ubuntu/_sidebar.md ":include")
 
-[README](zh-cn/windows/_sidebar.md ":include")
+[windows](zh-cn/windows/_sidebar.md ":include")
 
-[README](zh-cn/docker/_sidebar.md ":include")
+[docker](zh-cn/docker/_sidebar.md ":include")
 
-[README](zh-cn/other/_sidebar.md ":include")
+[other](zh-cn/other/_sidebar.md ":include")
 
-[README](zh-cn/git/_sidebar.md ":include")
+[git](zh-cn/git/_sidebar.md ":include")

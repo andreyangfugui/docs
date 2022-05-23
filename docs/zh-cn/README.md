@@ -5,12 +5,12 @@
   - `Openstack`
   - `大数据`
 
-[README](ubuntu/_sidebar.md ":include")
+[ubuntu](ubuntu/_sidebar.md ":include")
 
-[README](windows/_sidebar.md ":include")
+[windows](windows/_sidebar.md ":include")
 
-[README](docker/_sidebar.md ":include")
+[docker](docker/_sidebar.md ":include")
 
-[README](other/_sidebar.md ":include")
+[other](other/_sidebar.md ":include")
 
-[README](git/_sidebar.md ":include")
+[git](git/_sidebar.md ":include")
