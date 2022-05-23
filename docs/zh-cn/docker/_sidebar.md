@@ -1,10 +1,11 @@
-* [Docker相关](zh-cn/docker/docker.md)
+* `Docker`
 
-* [Redis部署](zh-cn/docker/redis.md)
+    * [Docker相关](zh-cn/docker/docker.md)
 
-* [Rabbitmq部署](zh-cn/docker/rabbitmq.md)
+    * [Redis部署](zh-cn/docker/redis.md)
 
-* [Mysql相关](zh-cn/docker/mysql.md)
+    * [Rabbitmq部署](zh-cn/docker/rabbitmq.md)
 
-* [Dokcer-compose](zh-cn/docker/docker-compose.md)
+    * [Mysql相关](zh-cn/docker/mysql.md)
 
+    * [Dokcer-compose](zh-cn/docker/docker-compose.md)

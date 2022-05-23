@@ -1,1 +1,2 @@
-* [gitignore](zh-cn/git/gitignore.md)
+* `GIT`
+    * [gitignore](zh-cn/git/gitignore.md)

@@ -1,4 +1,4 @@
-## 清楚记录
+## 清除记录
 
 ```shell script
 history -c

@@ -2,16 +2,8 @@
 * 操作系统
     
     * [Windows](zh-cn/windows/)
+
     * [Ubuntu](zh-cn/ubuntu/)
-    * [Centos](zh-cn/centos/)
-    * [UOS](zh-cn/uos/)
-
-* 编程语言
-
-    * [Python](zh-cn/python/)
-    * [JavaScript](zh-cn/JavaScript/)
-    * [TypeScript](zh-cn/TypeScript/)
-    * [Php](zh-cn/TypeScript/)
   
 * Docker
 
@@ -27,8 +19,6 @@
 
 * 杂七杂八
     
-    * [代理相关](zh-cn/proxy/)
-    
     * [Logstash7.x](zh-cn/other/logstash.md)
     
     * [Linux磁盘挂载](zh-cn/other/linux-disk.md)
@@ -42,3 +32,7 @@
     * [Ceph](zh-cn/other/ceph.md)
     
     * [Ansible](zh-cn/other/ansible.md)
+
+* GIT
+
+    * [gitignore](zh-cn/git/gitignore.md)

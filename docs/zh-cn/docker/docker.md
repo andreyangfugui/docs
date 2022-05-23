@@ -3,7 +3,7 @@
 ```shell script
 curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
 
-deb [arch=arm64] https://mirrors.aliyun.com/docker-ce/linux/debian buster stable" > /etc/apt/sources.list.d/docker.list
+deb [arch=amd64] https://mirrors.aliyun.com/docker-ce/linux/debian buster stable" > /etc/apt/sources.list.d/docker.list
 ```
 
 ## 加速器
