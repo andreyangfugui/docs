@@ -4,7 +4,7 @@
 
   * [Ubuntu](zh-cn/ubuntu/)
 
-* Docker
+* [Docker](zh-cn/docker/README.md)
 
   * [Docker相关](zh-cn/docker/docker.md)
 
@@ -16,22 +16,15 @@
 
   * [Dokcer-compose](zh-cn/docker/docker-compose.md)
 
-* 杂七杂八
+* [OpenStack](zh-cn/openstack/README.md)
 
-  * [Logstash7.x](zh-cn/other/logstash.md)
+  * [Ceph](zh-cn/openstack/ceph.md)
 
-  * [Linux磁盘挂载](zh-cn/other/linux-disk.md)
+* [BigData](zh-cn/bigdata/README.md)
+  * [cmak](zh-cn/bigdata/cmak.md)
 
-  * [Kafka相关](zh-cn/other/kafka.md)
-
-  * [Jumpserver堡垒机](zh-cn/other/jumpserver.md)
-
-  * [Flink](zh-cn/other/flink.md)
-
-  * [Ceph](zh-cn/other/ceph.md)
-  
-  * [Ansible](zh-cn/other/ansible.md)
-* Git
+* [Git](zh-cn/git/README.md)
   * [Gitignore](zh-cn/git/gitignore.md)
-* Deploy
+
+* [Deploy](zh-cn/deploy/README.md)
   * [Coturn](zh-cn/deploy/coturn.md)

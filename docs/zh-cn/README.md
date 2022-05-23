@@ -11,7 +11,9 @@
 
 [docker](docker/_sidebar.md ":include")
 
-[other](other/_sidebar.md ":include")
+[OpenStack](openstack/_sidebar.md ":include")
+
+[BigData](bigdata/_sidebar.md ":include")
 
 [git](git/_sidebar.md ":include")
 

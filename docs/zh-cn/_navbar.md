@@ -2,6 +2,7 @@
   * [Ubuntu](zh-cn/ubuntu/)
   * [Windows](zh-cn/windows/)
   * [Docker](zh-cn/docker/)
-  * [杂七杂八](zh-cn/other/)
+  * [OpenStack](zh-cn/openstack/)
+  * [BigData](zh-cn/bigdata/)
   * [Git](zh-cn/git)
   * [Deploy](zh-cn/deploy)

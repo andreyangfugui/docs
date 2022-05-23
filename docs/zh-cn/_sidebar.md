@@ -1,41 +1,30 @@
-
 * 操作系统
-    
-    * [Windows](zh-cn/windows/)
 
-    * [Ubuntu](zh-cn/ubuntu/)
-  
-* Docker
+  * [Windows](zh-cn/windows/)
 
-    * [Docker相关](zh-cn/docker/docker.md)
-    
-    * [Redis部署](zh-cn/docker/redis.md)
-    
-    * [Rabbitmq部署](zh-cn/docker/rabbitmq.md)
-    
-    * [Mysql相关](zh-cn/docker/mysql.md)
-    
-    * [Dokcer-compose](zh-cn/docker/docker-compose.md)
+  * [Ubuntu](zh-cn/ubuntu/)
 
-* 杂七杂八
-    
-    * [Logstash7.x](zh-cn/other/logstash.md)
-    
-    * [Linux磁盘挂载](zh-cn/other/linux-disk.md)
-    
-    * [Kafka相关](zh-cn/other/kafka.md)
-    
-    * [Jumpserver堡垒机](zh-cn/other/jumpserver.md)
-    
-    * [Flink](zh-cn/other/flink.md)
-    
-    * [Ceph](zh-cn/other/ceph.md)
-    
-    * [Ansible](zh-cn/other/ansible.md)
+* [Docker](zh-cn/docker/README.md)
 
-* GIT
+  * [Docker相关](zh-cn/docker/docker.md)
 
-    * [gitignore](zh-cn/git/gitignore.md)
+  * [Redis部署](zh-cn/docker/redis.md)
 
-* Deploy
-    * [Coturn](zh-cn/deploy/coturn.md)
+  * [Rabbitmq部署](zh-cn/docker/rabbitmq.md)
+
+  * [Mysql相关](zh-cn/docker/mysql.md)
+
+  * [Dokcer-compose](zh-cn/docker/docker-compose.md)
+
+* [OpenStack](zh-cn/openstack/README.md)
+
+  * [Ceph](zh-cn/openstack/ceph.md)
+
+* [BigData](zh-cn/bigdata/README.md)
+  * [cmak](zh-cn/bigdata/cmak.md)
+
+* [Git](zh-cn/git/README.md)
+  * [Gitignore](zh-cn/git/gitignore.md)
+
+* [Deploy](zh-cn/deploy/README.md)
+  * [Coturn](zh-cn/deploy/coturn.md)

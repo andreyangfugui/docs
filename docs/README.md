@@ -11,7 +11,9 @@
 
 [docker](zh-cn/docker/_sidebar.md ":include")
 
-[other](zh-cn/other/_sidebar.md ":include")
+[OpenStack](zh-cn/openstack/_sidebar.md ":include")
+
+[BigData](zh-cn/bigdata/_sidebar.md ":include")
 
 [git](zh-cn/git/_sidebar.md ":include")
 
