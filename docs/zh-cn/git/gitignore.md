@@ -1,4 +1,4 @@
-## 1、给项目添加.gitignore
+### 1、给项目添加.gitignore
 .gitignore可以忽略你不想上传的文件，比如doc,target,classes等等
 
 只需要在.git同目录下新增.gitignore文件，然后添加不需要上次的目录即可，比如
@@ -13,7 +13,7 @@
 如果是文件夹：git rm -r --cached 文件夹名
 如果是文件：git rm --cached 文件名
 
-## 如果已经上传
+### 如果已经上传
 
 如果之前忘记定义 .gitignore 文件，执行了 git add . 命令之后，
 发现加入的文件太多了，想要定义 .gitignore 并重新存储更改的文件。
@@ -29,7 +29,7 @@ git commit -m "....."
 git push -u origin master
 ```
 
-## git删除远程仓库的文件或目录
+### git删除远程仓库的文件或目录
 
 ```shell script
 #删除mydir目录

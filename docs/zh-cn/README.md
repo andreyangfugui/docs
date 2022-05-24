@@ -5,14 +5,16 @@
   - `Openstack`
   - `大数据`
 
-[ubuntu](ubuntu/_sidebar.md ":include")
+<!--
+  * [ubuntu](ubuntu/_sidebar.md ":include")
 
-[docker](docker/_sidebar.md ":include")
+  * [docker](docker/_sidebar.md ":include")
 
-[OpenStack](openstack/_sidebar.md ":include")
+  * [OpenStack](openstack/_sidebar.md ":include")
 
-[BigData](bigdata/_sidebar.md ":include")
+  * [BigData](bigdata/_sidebar.md ":include")
 
-[git](git/_sidebar.md ":include")
+  * [git](git/_sidebar.md ":include")
 
-[deploy](deploy/_sidebar.md ":include")
+  * [deploy](deploy/_sidebar.md ":include")
+-->

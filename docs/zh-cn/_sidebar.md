@@ -12,9 +12,7 @@
 
   * [Redis部署](zh-cn/docker/redis.md)
 
-  * [Rabbitmq部署](zh-cn/docker/rabbitmq.md)
-
-  * [Mysql相关](zh-cn/docker/mysql.md)
+  * [Gitlab部署](zh-cn/docker/gitlab.md)
 
   * [Dokcer-compose](zh-cn/docker/docker-compose.md)
 
@@ -24,7 +22,7 @@
 
 * [BigData](zh-cn/bigdata/README.md)
 
-  * [cmak](zh-cn/bigdata/cmak.md)
+  * [Cmak](zh-cn/bigdata/cmak.md)
 
 * [Git](zh-cn/git/README.md)
 

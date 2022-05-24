@@ -1,4 +1,4 @@
-## 安装
+* 安装
 
 ```shell script
 docker run \

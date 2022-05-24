@@ -1,4 +1,4 @@
-## 安装
+* 安装
 
 ```shell script
 curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
@@ -6,7 +6,7 @@ curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
 deb [arch=amd64] https://mirrors.aliyun.com/docker-ce/linux/debian buster stable" > /etc/apt/sources.list.d/docker.list
 ```
 
-## 加速器
+* 加速器
 
 ```shell script
 curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
@@ -21,27 +21,26 @@ sudo tee /etc/docker/daemon.json <<-'EOF'
 EOF
 sudo systemctl daemon-reload
 sudo systemctl restart docker
-
 ```
 
-## 迁移方案
+* 迁移方案
 
 两种方法迁移 Docker 的默认安装(存储)目录
 如果是通过 Ubuntu 的 apt-get 安装的 Docker，默认的安装目录应该是：/var/lib/docker。
 
 为了完全确定，可以使用以下的命令查询真正的安装路径：
-```
+```shell script
 sudo docker info | grep "Docker Root Dir"
 ```
 前置工作
 下文以 /store/software/docker 这个路径作为要迁移的新 Docker 安装(存储)目录
 
 在开始迁移之前，首先复制原 Docker 安装(存储)目录到新的路径下：
-```
+```shell script
 cp -a /var/lib/docker /store/software/
 ```
 然后备份原目录数据：
-```
+```shell script
 mv -u /var/lib/docker /var/lib/docker.bak
 ```
 ### 方法一：软链接
@@ -49,17 +48,17 @@ mv -u /var/lib/docker /var/lib/docker.bak
 通过把 Docker 的原安装(存储)目录移动到自定义的其他路径下，然后在原位置下建立软链接是最简单快捷的方式。
 
 首先，关停 Docker 服务：
-```
+```shell script
 sudo systemctl stop docker
 # or
 sudo service docker stop
 ```
 接着，新建一个 /var/lib/docker 的软链：
-```
+```shell script
 sudo ln -fs /store/software/docker /var/lib/docker
 ```
 最后，重启 Docker 服务：
-```
+```shell script
 sudo systemctl start docker
 # or
 sudo service docker start
@@ -86,11 +85,11 @@ Docker 版本 >= v17.05.0
 好在天无绝人之路，新版本的 Docker 还有其他方式可以达到我们修改安装(存储)目录的目的：通过修改(新建)/etc/docker/daemon.json，指定 data-root 参数的值。
 
 按如下操作：
-```
+```shell script
 vim /etc/docker/daemon.json
 ```
 加入
-```
+```shell script
 {
     "data-root": "/store/software/docker",
     "storage-driver": "overlay2" # 这个是 Docker 是默认设置，这里也可以不用加
@@ -99,7 +98,7 @@ vim /etc/docker/daemon.json
 重启 Docker & 清理原安装(存储)目录
 最后，重启 Docker 服务：
 
-```
+```shell script
 sudo systemctl restart docker
 # or
 sudo service docker restart

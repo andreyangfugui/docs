@@ -1,7 +1,10 @@
 
-## `cephadm` 安装`ceph v15`准备
+### 安装准备
 
-参考安装文档, 有问题可以直接留言，大家一起交流，以下都是部署的比较基础的东西
+> cephadm v15
+
+
+参考安装文档
 
 ```
 https://docs.ceph.com/en/latest/cephadm/
