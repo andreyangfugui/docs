@@ -1,8 +1,14 @@
-* 操作系统
+* [Ubuntu](zh-cn/ubuntu/README.md)
 
-  * [Windows](zh-cn/windows/)
+  * [Ubuntu18.04、python3.8虚拟环境](zh-cn/ubuntu/ubuntu18.04-python3.8.md)
 
-  * [Ubuntu](zh-cn/ubuntu/)
+  * [清除痕迹](zh-cn/ubuntu/clear-history.md)
+
+  * [进程监控](zh-cn/ubuntu/process-monitor.md)
+
+  * [自定义服务并自启](zh-cn/ubuntu/autostart-custom-service.md)
+
+  * [Linux Lvm](zh-cn/ubuntu/lvm.md)
 
 * [Docker](zh-cn/docker/README.md)
 
@@ -21,10 +27,13 @@
   * [Ceph](zh-cn/openstack/ceph.md)
 
 * [BigData](zh-cn/bigdata/README.md)
+
   * [cmak](zh-cn/bigdata/cmak.md)
 
 * [Git](zh-cn/git/README.md)
+
   * [Gitignore](zh-cn/git/gitignore.md)
 
 * [Deploy](zh-cn/deploy/README.md)
+
   * [Coturn](zh-cn/deploy/coturn.md)
