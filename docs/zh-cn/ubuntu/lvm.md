@@ -1,9 +1,10 @@
 # Linux Lvm
-操作系统: ubuntu18
+>操作系统: Ubuntu 18.04
+
 以/dev/sdb做演示。
 ## 创建PV
 ```shell script
-pvcreate <physical_disk_directory>
+pvcreate <physical_disk_path>
 pvcreate /dev/sdb
 ```
 ## 创建VG

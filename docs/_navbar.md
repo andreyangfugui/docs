@@ -1,6 +1,5 @@
 * [首页](zh-cn/)
   * [Ubuntu](zh-cn/ubuntu/)
-  * [Windows](zh-cn/windows/)
   * [Docker](zh-cn/docker/)
   * [OpenStack](zh-cn/openstack/)
   * [BigData](zh-cn/bigdata)

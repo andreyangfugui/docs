@@ -1,5 +1,5 @@
 {
-  "name": "echo-doc",
+  "name": "andre-doc",
   "scripts": {
     "serve": "docsify serve docs",
     "build": "docsify build docs"

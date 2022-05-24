@@ -7,8 +7,6 @@
 
 [ubuntu](zh-cn/ubuntu/_sidebar.md ":include")
 
-[windows](zh-cn/windows/_sidebar.md ":include")
-
 [docker](zh-cn/docker/_sidebar.md ":include")
 
 [OpenStack](zh-cn/openstack/_sidebar.md ":include")
