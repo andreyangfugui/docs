@@ -1,5 +1,4 @@
-
-### 安装准备
+* 安装准备
 
 > cephadm v15
 
@@ -51,7 +50,7 @@ systemctl disable firewalld
 
 **接下来就开始我们的安装之旅把！**
 
-## 获取`cephadm`
+* 获取`cephadm`
 
 >`cephadm`其实就个`python3`的脚本而已
 
@@ -65,7 +64,7 @@ wget https://raw.githubusercontent.com/ceph/ceph/octopus/src/cephadm/cephadm
 chmod +x cephadm
 ```
 
-## 获取软件包
+* 获取软件包
 * 尽管独立脚本足以启动群集，但是cephadm在主机上安装命令很方便。要安装提供cephadm八达通发行版命令的软件包，请运行以下命令
 
 ```shell
@@ -84,7 +83,7 @@ which cephadm
 /usr/sbin/cephadm
 ```
 
-## 引导新的集群
+* 引导新的集群
 
 ```
 # 172.16.2.186为node1的IP
@@ -92,7 +91,7 @@ cephadm bootstrap --mon-ip 172.16.2.186
 ```
 >安装完成后会返回一个dashboard页面 直接使用公网IP访问即可，主要确保安全组的端口畅通
 
-## 将主机添加到集群中
+* 将主机添加到集群中
 
 要将每个新主机添加到群集，请执行两个步骤：
 
@@ -147,7 +146,7 @@ orch device zap <hostname> <path> [--force]
 ceph orch device zap node1 /dev/sdb --force
 ```
 
-## 部署rgw
+* 部署rgw
 
 **确保`ceph -s`的状态为`HEALTH_OK`**
 
@@ -213,7 +212,7 @@ radosgw-admin period update --commit
 
 https://blog.csdn.net/nslogheyang/article/details/100115336
 
-## 移除osd
+* 移除osd
 
 ```shell script
 # 先将该osd reweight 到0，也就是将权重降低到0，让数据副本分散到其它osd上
@@ -226,7 +225,7 @@ ceph auth del osd.2
 ceph osd rm osd.2
 ```
 
-## RGW
+* RGW
 
 设置rgw端口
 

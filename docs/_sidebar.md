@@ -1,33 +1,33 @@
-* [Ubuntu](zh-cn/ubuntu/README.md)
+* Ubuntu
 
-  * [进程监控](zh-cn/ubuntu/process-monitor.md)
+  * [进程监控](ubuntu/process-monitor.md)
 
-  * [自定义服务并自启](zh-cn/ubuntu/autostart-custom-service.md)
+  * [自定义服务并自启](ubuntu/autostart-custom-service.md)
 
-  * [Linux Lvm](zh-cn/ubuntu/lvm.md)
+  * [Linux Lvm](ubuntu/lvm.md)
 
-* [Docker](zh-cn/docker/README.md)
+* Docker
 
-  * [Docker相关](zh-cn/docker/docker.md)
+  * [Docker相关](docker/docker.md)
 
-  * [Redis部署](zh-cn/docker/redis.md)
+  * [Redis部署](docker/redis.md)
 
-  * [gitlab部署](zh-cn/docker/gitlab.md)
+  * [Gitlab部署](docker/gitlab.md)
 
-  * [Docker-compose](zh-cn/docker/docker-compose.md)
+  * [Dokcer-compose](docker/docker-compose.md)
 
-* [OpenStack](zh-cn/openstack/README.md)
+* OpenStack
 
-  * [Ceph](zh-cn/openstack/ceph.md)
+  * [Ceph](openstack/ceph.md)
 
-* [BigData](zh-cn/bigdata/README.md)
+* BigData
 
-  * [cmak](zh-cn/bigdata/cmak.md)
+  * [Cmak](bigdata/cmak.md)
 
-* [Git](zh-cn/git/README.md)
+* Git
 
-  * [Gitignore](zh-cn/git/gitignore.md)
+  * [Gitignore](git/gitignore.md)
 
-* [Deploy](zh-cn/deploy/README.md)
+* Deploy
 
-  * [Coturn](zh-cn/deploy/coturn.md)
+  * [Coturn](deploy/coturn.md)
