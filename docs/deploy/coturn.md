@@ -1,4 +1,4 @@
-建议配置:Ubuntu18 4C8G40G
+>建议配置: Ubuntu18 4C8G40G
 ```shell script
 sudo su
 
@@ -50,15 +50,25 @@ turnserver -o -a -f -user=admin:admin -r admin
 ```
 
 访问 https://webrtc.github.io/samples/src/content/peerconnection/trickle-ice/
-在ICE servers一栏下输入
+
+在ICE servers一栏下输入:
+```shell script
 STUN or TURN URI: stun:$ip:3478 # $ip替换为虚拟机本机ip
+
 TURN username: admin
+
 TURN password: admin
-点击Add server,再次输入
+```
+点击Add server,再次输入:
+```shell script
 STUN or TURN URI: turn:$ip:3478 # $ip替换为虚拟机本机ip
+
 TURN username: admin
+
 TURN password: admin
+```
 点击Add server
+
 拉到最下面 点击Gather candidates，address输出三栏即成功
 
 服务开机自启:
