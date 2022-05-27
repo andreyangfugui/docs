@@ -6,6 +6,8 @@
 
   * [Linux Lvm](ubuntu/lvm.md)
 
+  * [文件共享与定时备份](ubuntu/nfs.md)
+
 * Docker
 
   * [Docker相关](docker/docker.md)
