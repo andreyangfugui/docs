@@ -86,7 +86,7 @@ chown <es user> <elasticsearch.yml path>
 ./bin/elasticsearch-setup-passwords interactive (手动设置各个用户密码)
 ./bin/elasticsearch-setup-passwords auto (生成随机密码，会将生成的密码打印到屏幕上，记得保存)
 ```
-依次重启es集群和kibana服务以使配置项生效\
+依次重启es集群和kibana服务以使配置项生效
 
 >* 验证手段:
 >  * curl http://es01:9200 (此条应返回empty reply from sever)
