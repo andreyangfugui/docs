@@ -28,10 +28,30 @@ vim instance.yml
 ###### 其中,instances.yml内容示例如下:
 ```shell script
 instances:
-      - name: "es"
-        dns: ['es01', 'es02', 'es03']
+###      - name: "es"
+###        dns: ['es01', 'es02', 'es03']
+###      - name: "kibana"
+###        dns: ['es01']
+      - name: "es01"
+        dns: 
+          - es01
+        ip:
+          - 192.168.0.2
+      - name: "es02"
+        dns: 
+          - es02
+        ip:
+          - 192.168.0.3
+      - name: "es03"
+        dns: 
+          - es03
+        ip:
+          - 192.168.0.4
       - name: "kibana"
-        dns: ['es01']
+        dns: 
+          - es01
+        ip:
+          - 192.168.0.2
 ```
 将生成的证书压缩包解压缩到特定目录,更改文件权限
 ```shell script
